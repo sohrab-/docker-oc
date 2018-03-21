@@ -1,18 +1,11 @@
 OpenShift Client Docker Image
 ===
 
-Minimal (~216MB) [OpenShift](https://www.openshift.org/) client.
+A minimal [OpenShift](https://www.openshift.org/) client (~ 212MB uncompressed).
 
 Usage
 ---
 
 ```
-docker run sohrab/oc /oc version
-```
-
-Build
----
-
-```
-docker build -t sohrab/oc .
+docker run sohrab/oc oc version
 ```
