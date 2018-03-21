@@ -6,10 +6,13 @@ Minimal (~216MB) [OpenShift](https://www.openshift.org/) client.
 Usage
 ---
 
-  docker run sohrab/oc /oc version
+```
+docker run sohrab/oc /oc version
+```
 
 Build
 ---
 
-  docker build -t sohrab/oc .
-
+```
+docker build -t sohrab/oc .
+```
